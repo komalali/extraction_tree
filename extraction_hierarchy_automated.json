@@ -1,0 +1,111 @@
+{
+    "name": "Cooper Project",
+    "parent": "null",
+    "numSources": 2359,
+    "children":
+    [
+        {
+            "name": "Have Microdata",
+            "parent": "Cooper Project",
+            "numSources": 1171,
+            "children":
+            [
+                {
+                    "name": "Survey Sources",
+                    "parent": "Have Microdata",
+                    "numSources": 1168,
+                    "children":
+                    [
+                        {
+                            "name": "Categorized",
+                            "parent": "Survey Sources",
+                            "numSources": 673,
+                            "children":
+                            [
+                                {
+                                    "name": "Diet Recall",
+                                    "parent": "Categorized",
+                                    "numSources": 60,
+                                    "children":
+                                    [
+                                        {
+                                            "name": "Extracted",
+                                            "parent": "Diet Recall",
+                                            "numSources": 60
+                                        },
+                                        {
+                                            "name": "Remaining",
+                                            "parent": "Diet Recall",
+                                            "numSources": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Food Frequency Questionaire",
+                                    "parent": "Categorized",
+                                    "numSources": 354,
+                                    "children":
+                                    [
+                                        {
+                                            "name": "Extracted",
+                                            "parent": "Food Frequency Questionaire",
+                                            "numSources": 347
+                                        },
+                                        {
+                                            "name": "Remaining",
+                                            "parent": "Food Frequency Questionaire",
+                                            "numSources": 7
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Household Budget Survey",
+                                    "parent": "Categorized",
+                                    "numSources": 134,
+                                    "children":
+                                    [
+                                        {
+                                            "name": "Extracted",
+                                            "parent": "Household Budget Survey",
+                                            "numSources": 14
+                                        },
+                                        {
+                                            "name": "Remaining",
+                                            "parent": "Household Budget Survey",
+                                            "numSources": 120
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Cohort Studies",
+                                    "parent": "Categorized",
+                                    "numSources": 12
+                                },
+                                {
+                                    "name": "Other/NA/Excluded",
+                                    "parent": "Categorized",
+                                    "numSources": 167
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Uncategorized",
+                            "parent": "Survey Sources",
+                            "numSources": 495
+                        }
+                    ]
+                },
+                {
+                    "name": "Non-Survey Sources",
+                    "parent": "Have Microdata",
+                    "numSources": 3
+                }
+            ]
+        },
+        {
+            "name": "No Microdata",
+            "parent": "Cooper Project",
+            "numSources": 1188
+        }
+    ]
+}

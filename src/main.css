@@ -1,0 +1,108 @@
+.sidebar {
+  width: 200px;
+  height: 700px;
+  border-radius: 15px;
+  position: absolute;
+  line-height: 1.2;
+  font-size: 14px;
+  padding: 10px;
+  padding-top: 0px;
+  margin: 5px;
+  border: 3px solid #4d4d4d;
+}
+
+.sidebar h4 {
+  margin-top: 10px;
+  font: 20px sans-serif;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.sidebar p {
+  margin-top: -15px;
+  font: 12px sans-serif;
+  text-align: justify;
+  color: #4d4d4d;
+}
+
+.sidebar ul {
+  padding-left: 20px;
+  font: 12px sans-serif;
+  color: #4d4d4d;
+}
+
+.sidebar .sidebarP {
+  padding-top: 20px;
+  font: 12px sans-serif;
+  color: #4d4d4d;
+}
+
+.sidebar .signature {
+  padding-top: 145px;
+  margin-left: -5px;
+  font: 12px sans-serif;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.header {
+  position: absolute;
+  padding: 10px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: left;
+  font: 35px sans-serif;
+  font-weight: bold;
+  color: #4d4d4d;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 240px;
+}
+
+h2 {
+  text-align: left;
+  font: 25px sans-serif;
+  font-weight: bold;
+  color: #4d4d4d;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 240px;
+}
+
+body {
+  background: FloralWhite;
+}
+
+.outer-node circle {
+  fill: #fff;
+  stroke: #4d4d4d;
+  stroke-width: 3px;
+}
+
+.node .nodeTitle-text {
+  font: 13px sans-serif;
+  font-weight: bold;
+  fill: #4d4d4d;
+}
+
+.node .numSources-text {
+  font: 13px sans-serif;
+  font-weight: bold;
+  fill: #4d4d4d;
+}
+
+.node .side-text {
+  font: 12px sans-serif;
+  font-weight: bold;
+  fill: #4d4d4d;
+}
+
+.link {
+  fill: none;
+  stroke: darkgrey;
+  stroke-width: 2px;
+}

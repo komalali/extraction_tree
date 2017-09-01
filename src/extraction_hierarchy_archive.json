@@ -1,0 +1,108 @@
+{
+    "name": "Cooper",
+    "parent": "null",
+    "numSources": 4292,
+    "closed": "forestgreen",
+    "open": "#9ACD32",
+    "children":
+    [
+        {
+            "name": "Survey",
+            "parent": "Cooper",
+            "numSources": 2637,
+            "closed": "steelblue",
+            "open": "lightsteelblue",
+            "children":
+            [
+                {
+                    "name": "Microdata",
+                    "parent": "Survey",
+                    "numSources": 1720,
+                    "closed": "steelblue",
+                    "open": "lightsteelblue",
+                    "children":
+                    [
+                        {
+                            "name": "DR",
+                            "parent": "Microdata",
+                            "numSources": 64,
+                            "numExtracted": 60,
+                            "numRejected": 4,
+                            "numRemaining": 0,
+                            "text": "60 out of 64 dietary recalls have been extracted. 4 have been excluded. 0 remain."
+                        },
+                        {
+                            "name": "FFQ",
+                            "parent": "Microdata",
+                            "numSources": 829,
+                            "numExtracted": 348,
+                            "numRejected": 157,
+                            "numRemaining": 324,
+                            "text": "348 out of 829 food frequency questionaires have been extracted. 157 have been excluded. 324 remain."
+                        },
+                        {
+                            "name": "HHBS",
+                            "parent": "Microdata",
+                            "numSources": 787,
+                            "numExtracted": 47,
+                            "numRejected": 9,
+                            "numRemaining": 731,
+                            "text": "47 out of 787 household budget surveys have been extracted. 9 have been excluded. 731 remain."
+                        },
+                        {
+                            "name": "Other",
+                            "parent": "Microdata",
+                            "numSources": 40,
+                            "text": "40 sources fall outside the definition of DR, FFQ or HHBS."
+                        }
+                    ]
+                },
+                {
+                    "name": "No Microdata",
+                    "parent": "Survey",
+                    "numSources": 917,
+                    "closed": "steelblue",
+                    "open": "lightsteelblue",
+                    "children":
+                    [
+                      {
+                        "name": "Comprehensive Tabulations",
+                        "parent": "No Microdata",
+                        "numSources": 73
+                      },
+                      {
+                        "name": "Report Tabulations",
+                        "parent": "No Microdata",
+                        "numSources": 661
+                      },
+                      {
+                        "name": "No Ownership or Documentation Only",
+                        "parent": "No Microdata",
+                        "numSources": 183
+                      }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sci Lit",
+            "parent": "Cooper",
+            "numSources": 974
+        },
+        {
+            "name": "Yearbooks",
+            "parent": "Cooper",
+            "numSources": 398
+        },
+        {
+            "name": "Estimate",
+            "parent": "Cooper",
+            "numSources": 247
+        },
+        {
+            "name": "Other",
+            "parent": "Cooper",
+            "numSources": 36
+        }
+    ]
+}
